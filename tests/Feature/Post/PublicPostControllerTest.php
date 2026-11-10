@@ -90,3 +90,4 @@ class PublicPostControllerTest extends TestCase
         $response->assertNotFound();
     }
 }
+

@@ -47,3 +47,4 @@ class PostPolicyTest extends TestCase
         $this->assertFalse($policy->delete($other, $post));
     }
 }
+

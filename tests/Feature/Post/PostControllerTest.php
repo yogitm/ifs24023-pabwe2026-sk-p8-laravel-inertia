@@ -243,3 +243,4 @@ class PostControllerTest extends TestCase
         ]);
     }
 }
+

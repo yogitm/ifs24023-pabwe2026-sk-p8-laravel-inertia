@@ -36,3 +36,4 @@ class UserModelTest extends TestCase
         $this->assertInstanceOf(\Illuminate\Support\Carbon::class, $user->email_verified_at);
     }
 }
+

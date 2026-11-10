@@ -99,3 +99,4 @@ class PostModelTest extends TestCase
         $this->assertFalse($results->contains($future));
     }
 }
+

@@ -62,3 +62,4 @@ class AuthActionsTest extends TestCase
         $this->assertDatabaseHas('users', ['email' => 'memberbaru@example.com', 'role' => 'member']);
     }
 }
+

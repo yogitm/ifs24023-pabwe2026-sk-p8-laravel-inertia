@@ -30,3 +30,4 @@ class GeneratedPostItemTest extends TestCase
         ], $array);
     }
 }
+

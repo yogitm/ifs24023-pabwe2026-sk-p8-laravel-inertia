@@ -109,3 +109,4 @@ class OpenAiPostGeneratorServiceTest extends TestCase
         $this->assertSame('Umum', $articles[1]['category']);
     }
 }
+

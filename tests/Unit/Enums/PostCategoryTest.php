@@ -30,3 +30,4 @@ class PostCategoryTest extends TestCase
         ], $values);
     }
 }
+

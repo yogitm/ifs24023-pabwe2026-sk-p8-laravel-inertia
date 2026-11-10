@@ -66,3 +66,4 @@ class PostRepositoryTest extends TestCase
         $this->assertDatabaseMissing('posts', ['id' => $post->id]);
     }
 }
+

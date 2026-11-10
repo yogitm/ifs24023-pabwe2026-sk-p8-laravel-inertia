@@ -28,3 +28,4 @@ class AdminPostController extends Controller
         return response()->download($path, 'semua-artikel.xlsx')->deleteFileAfterSend();
     }
 }
+

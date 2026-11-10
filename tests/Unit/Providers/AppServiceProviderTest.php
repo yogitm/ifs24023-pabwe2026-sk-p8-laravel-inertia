@@ -35,3 +35,4 @@ class AppServiceProviderTest extends TestCase
         config(['app.force_https' => false]);
     }
 }
+

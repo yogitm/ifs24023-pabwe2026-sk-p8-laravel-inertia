@@ -38,3 +38,4 @@ class AdminUserServiceTest extends TestCase
         $this->assertTrue($found->posts->contains($post));
     }
 }
+
