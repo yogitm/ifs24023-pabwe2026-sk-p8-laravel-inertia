@@ -31,7 +31,7 @@ class AuthController extends Controller
             'password' => $data['password'],
         ], $request->boolean('remember'));
 
-        return redirect()->intended('/dashboard/posts');
+        return redirect('/dashboard/posts');
     }
 
     public function register(): Response

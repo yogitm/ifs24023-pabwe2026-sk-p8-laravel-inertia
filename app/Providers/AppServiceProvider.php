@@ -24,7 +24,7 @@ class AppServiceProvider extends ServiceProvider
     {
         Gate::policy(Post::class, PostPolicy::class);
 
-        if (config('app.force_https')) {
+        if (config('app.force_https') || str_starts_with(config('app.url'), 'https://') || app()->environment('production')) {
             URL::forceScheme('https');
         }
     }
